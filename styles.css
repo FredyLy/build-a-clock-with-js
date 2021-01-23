@@ -23,7 +23,7 @@ footer {
 }
 
 .container {
-    background: linear-gradient(to right, hsl(202, 97%, 77%), hsl(202, 100%, 92%));
+    background: linear-gradient(to right, hsl(202, 95%, 75%), hsl(202, 100%, 92%));
     display: flex;
     justify-content: center;
     align-items: center;
