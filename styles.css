@@ -3,6 +3,25 @@
     font-family: Gotham Rounded, sans-serif;
 }
 
+h1 {
+    background-color: #032b7a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: #032b7a;
+    color: white;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: center;
+}
+
+.copyr {
+    font-size: 0.8em;
+}
+
 body {
     background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
     display: flex;
@@ -10,7 +29,6 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-
 }
 
 .clock {
