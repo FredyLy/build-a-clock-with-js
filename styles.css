@@ -3,14 +3,32 @@
     font-family: Gotham Rounded, sans-serif;
 }
 
-body {
+h1 {
+    background-color: #032b7a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: #032b7a;
+    color: white;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: center;
+}
+
+.copyr {
+    font-size: 0.8em;
+}
+
+.container {
     background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;              /* Centre l'horloge au milieu de la page*/
-    overflow: hidden;               /* Supprime la barre de scroll */
-
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .clock {
@@ -53,15 +71,15 @@ body {
     border: 1px solid white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    transform-origin: bottom;                   /* Défini le placement de hand */
-    z-index: 10;                                /* hand se positionne toujours au dessus des chiffres */
+    transform-origin: bottom;
+    z-index: 10;
     transform: 
         translateX(-50%) 
-        rotate(calc(var(--rotation) * 1deg)); /* Décalle l'aiguille hand vers la gauche */
+        rotate(calc(var(--rotation) * 1deg));
 }
 
 .clock::after {
-    content: '';                                /* Ajouter un nouvel élément au DOM */
+    content: '';
     position: absolute;
     background-color: black;
     z-index: 11;
